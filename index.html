@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Chat</title>
+	<!-- JQUERY -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<!-- Main styles -->
+	<link rel="stylesheet" HREF="style.css" TYPE="text/css"> 
+	<!-- Chat script -->
+	<script src="whatsappChat.js"></script>
+
+</head>
+<body>
+
+	<!-- HTML necesario -->
+	<div class="caja-popup">
+		<div class="caja-popup-1" id="popup-oculto">
+			<div class="caja-popup-abierto">
+				<div class="popup-abierto-1">Estoy para ayudarte en lo que necesites. ¡Pregúnta lo que quieras!</div>
+				<div class="popup-abierto-2">Hola, ¿Qué tal?</div>
+			</div>
+			<div class="caja-input">
+				<input type="text" class="input-chat" id="inputChat" placeholder="Escribe tu mensaje...">
+				<img class="enviar-chat" id="buttonChat" src="send-button.svg" >
+			</div>
+		</div>
+		<div class="caja-popup-2" id="abrir-popup-oculto">
+			<div class="popup-cerrado"><i class="fab fa-whatsapp"></i> ¿Cómo puedo ayudarte?</div>
+		</div>
+	</div>
+
+</body>
+</html>
